@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 8px 8px 8px;    
+   
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.logo1{
+    height: 75px;
+}
+
+.navbar-menu:hover{
+    cursor: pointer;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+border-bottom: 2px solid black;
+}
